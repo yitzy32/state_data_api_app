@@ -1,0 +1,2 @@
+class StateDatum < ApplicationRecord
+end

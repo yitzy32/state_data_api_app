@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_11_032253) do
+ActiveRecord::Schema.define(version: 2021_06_11_132317) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,6 +23,8 @@ ActiveRecord::Schema.define(version: 2021_06_11_032253) do
     t.decimal "share_population_with_high_school_degree", precision: 4, scale: 3
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "abbrev"
+    t.string "state_code"
   end
 
 end
